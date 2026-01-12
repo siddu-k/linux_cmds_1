@@ -1,0 +1,27 @@
+mkdir test_dir
+cd test_dir
+touch example.txt
+mv example.txt renamed_example.txt
+
+cat /etc/passwd
+  head -n 5 /etc/passwd 
+  tail -n 5 /etc/passwd
+  
+cat  /etc/passwd | grep root
+
+zip test_dir directory test_dir.zip
+
+unzip test_dir directory test_dir.zip
+
+wget https://example.com/sample.txt
+
+chmod -w secure.txt
+chmod +r secure.txt
+
+export MY_VAR="Hello, Linux!"
+
+  
+
+  
+  
+
