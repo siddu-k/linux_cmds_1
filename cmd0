@@ -9,9 +9,9 @@ cat /etc/passwd
   
 cat  /etc/passwd | grep root
 
-zip test_dir directory test_dir.zip
+zip -r test_dir.zip test_dir
+unzip test_dir.zip -d unzipped_dir
 
-unzip test_dir directory test_dir.zip
 
 wget https://example.com/sample.txt
 
